@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Withdraw" HorizontalAlignment="Left" Height="46" Margin="542,176,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click" />
-        <Button Content="Deposit" HorizontalAlignment="Left" Height="46" Margin="135,176,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click" />
-        <Button Content="Check Balance" HorizontalAlignment="Left" Height="46" Margin="336,176,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click" />
+        <Button Content="Withdraw" HorizontalAlignment="Left" Height="46" Margin="542,176,0,0" VerticalAlignment="Top" Width="99" Click="WitdrawClick" />
+        <Button Content="Deposit" HorizontalAlignment="Left" Height="46" Margin="135,176,0,0" VerticalAlignment="Top" Width="99" Click="DepositClick" />
+        <Button Content="Check Balance" HorizontalAlignment="Left" Height="46" Margin="336,176,0,0" VerticalAlignment="Top" Width="99" Click="CheckBalClick" />
     </Grid>
 </Window>

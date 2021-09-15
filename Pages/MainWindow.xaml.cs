@@ -18,16 +18,29 @@ namespace Xaml_ATM_Project
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void DepositClick(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine("I am doing a test");
+               
+        }
+
+        private void CheckBalClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void WitdrawClick(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
